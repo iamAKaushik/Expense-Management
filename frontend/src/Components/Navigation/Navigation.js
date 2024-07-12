@@ -11,7 +11,7 @@ function Navigation({active, setActive}) {
             <div className="user-con">
                 <img src={avatar} alt="" />
                 <div className="text">
-                    <h2>Mike</h2>
+                    <h2>Abhishek</h2>
                     <p>Your Money</p>
                 </div>
             </div>
@@ -41,7 +41,7 @@ const NavStyled = styled.nav`
     width: 374px;
     height: 100%;
     background: rgba(252, 246, 249, 0.78);
-    border: 3px solid #FFFFFF;
+    border: 3px solid #000000;
     backdrop-filter: blur(4.5px);
     border-radius: 32px;
     display: flex;
@@ -58,7 +58,7 @@ const NavStyled = styled.nav`
             height: 80px;
             border-radius: 50%;
             object-fit: cover;
-            background: #fcf6f9;
+            background: #E8CE46;
             border: 2px solid #FFFFFF;
             padding: .2rem;
             box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.06);
